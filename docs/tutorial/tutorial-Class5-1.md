@@ -4,7 +4,7 @@ codes: {"exmple code":"/tutorial/demo5-1.py",
 "result":"/tutorial/demo5-1.csv"}
 ---
 
-本文详细内容可以参考[官方文档](http://python.usyiyi.cn/documents/python_352/library/index.html)中查询或者到[廖雪峰博客](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001431917715991ef1ebc19d15a4afdace1169a464eecc2000)。
+本文详细内容可以参考[官方文档](http://python.usyiyi.cn/documents/python_352/library/index.html)和[廖雪峰博客](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001431917715991ef1ebc19d15a4afdace1169a464eecc2000)。
 
 # 文件操作与文件流
 在之前的所有代码中，我们的输入设备都是键盘，而输出设备都是显示器。
