@@ -13,7 +13,7 @@ codes: {"exmple code":"/tutorial/demo5-1.py",
 
 这时，我们就会要用到文件操作。
 
-## 打开文件
+## 文件操作
 `open(file,mode='r',encoding=None,errors=None)`
 
 在Python中，提供了一个内置函数`open()`可以用来访问操作系统所提供的文件API接口，`open()`函数返回一个文件对象，我们可以通过该文件对象来访问文件流中的数据。
@@ -21,22 +21,23 @@ codes: {"exmple code":"/tutorial/demo5-1.py",
 关于`open()`函数的完整信息可以参考[官方文档](http://python.usyiyi.cn/documents/python_352/library/functions.html#open)。
 
 ### 参数 file
-此参数表示文件URL，可以是绝对路径或相对路径，如`'D:/VS/test.txt'` `./a.csv`
+此参数表示文件URL，可以是绝对路径或相对路径，如`'D:/VS/test.txt'` `'./a.csv'`
 
 ### 参数 mode
 此参数是指明文件打开的模式，常用的几个模式如下:
->`open()`函数默认的打开模式为`rt`.
+>`open()`函数默认的打开模式为`'rt'`.
 
-字符 | 含义
------|----------
- 'r' | 读取模式
- 'w' | 写入模式 
- 'a' | 追加模式
- 't' | 文本模式
- 'b' | 二进制模式
+字符   | 含义
+-------|----------
+ `'r'` | 读取模式
+ `'w'` | 写入模式 
+ `'a'` | 追加模式
+ `'t'` | 文本模式
+ `'b'` | 二进制模式
 
 ### 参数 encoding
 此参数是指明用于文件的编码格式，只能用于文本模式下
+>默认的编码格式为:`GBK`
 
 ### 参数 errors
 参函数是指明如何处理编码和解码错误
@@ -62,7 +63,7 @@ codes: {"exmple code":"/tutorial/demo5-1.py",
 python提供`with`方法，该方法允许自定义用户类去定义在语句体执行前进入并且在语句结束时退出的运行时上下文。
 
 * `with open() as f`:
-在Python中，已经实现了`open()`函数的上下文管理，`with open() as f`我们可以用这种形式来简化我们对文件对象的管理。
+在Python中，已经实现了`open()`函数的上下文管理，我们可以利用`with open() as f`来简化我们对文件对象的管理。
 
 >利用内置函数`open()`方法打开文件时，每次打开之后，最后都要调用`close()`方法关闭文件，而且如果打开的文件不存在，就会因为无法`close()`而抛出异常，所以python提供了`with open() as f`发放自动调用`close()` 
 
