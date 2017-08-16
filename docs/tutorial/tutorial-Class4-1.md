@@ -169,6 +169,9 @@ re.sub(r'world', 'python', 'hello world')
  * `re.U`(全拼：UNICODE): 使预定字符类 \w \W \b \B \s \S \d \D 取决于unicode定义的字符属性
  * `re.X`(全拼：VERBOSE): 详细模式。这个模式下正则表达式可以是多行，忽略空白字符，并可以加入注释。
 
+
+
  ## 思考
+
  1. `re`模块的使用方式有多种，请掌握至少一种使用方法
  1. 使用正则表达式提取[中关村新闻](http://news.zol.com.cn/)的新闻标题
