@@ -4,6 +4,7 @@ qrcode: false
 ---
 
 # 新生教程
+
 持续更新中……
 * Class 1 介绍数据处理的流程和应用
 > * [配置环境](./tutorial/tutorial-Class1)
@@ -23,4 +24,5 @@ qrcode: false
 * Class 6 **实践**:实现一个特定功能的小爬虫
 
 # QR Code
+
 ![tutorial-qrcode](./img/tutorial-qrcode.png)

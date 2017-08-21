@@ -1,6 +1,5 @@
 ---
 title: 理学院科协
-show_on_github: true
 qrcode: false
 ---
 
@@ -15,4 +14,5 @@ qrcode: false
 * [杂谈](./others)
 
 # QR Code
+
 ![index-qrcode](./img/index-qrcode.png)

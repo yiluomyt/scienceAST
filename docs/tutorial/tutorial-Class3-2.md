@@ -1,6 +1,7 @@
 ---
 title: 静态页面爬虫
 codes: {"Spider Code":"/tutorial/demo3.py", "Result":"/tutorial/demo3.txt"}
+author: yiluomyt
 ---
 # 静态页面爬虫
 ## Python 实践
@@ -65,11 +66,11 @@ print(response.text)
 >若出现response.text乱码,可以尝试手动对response.content解码。
 
 ### 解决方案
-该函数引用自[jieba分词](https://github.com/fxsjy/jieba)，经过小幅修改。
+该函数引用自[jieba分词](https://github.com/fxsjy/jieba)的源代码，经过小幅修改。
 ``` Python
 def strdecode(sentence):
     # 判断所传入的sentence是否需要解码
-    # 在Python 3中，str保存的即为unicode编码，所以不需要解码
+    # 在Python 3中，str保存的即为unicode，所以不需要解码
     if not isinstance(sentence, str):
         try:
             # 尝试使用UTF-8解码
@@ -79,4 +80,4 @@ def strdecode(sentence):
             sentence = sentence.decode('gbk', 'ignore')
     return sentence
 ```
-若想使用该函数自动判断解码方式的话，需要传入的对象为`response.content`。
+>若想使用该函数自动判断解码方式的话，需要传入的对象为`response.content`。
