@@ -7,6 +7,7 @@ qrcode: false
 ## 部门安排
 
 * [工作计划](./task)
+* [期中考核](./assessment)
 
 # 教程
 
