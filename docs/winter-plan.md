@@ -18,7 +18,7 @@ Python相关
 
 其他方面
 - 使用git，在github上分享代码
-- 在lunix环境中配置python环境
+- 在Linux环境中配置python环境
 - 了解数据库的使用（sqlite3,mongodb）
 - 了解Markdown和LaTex
 
