@@ -6,8 +6,7 @@ qrcode: false
 # 理学院科协|数据处理 小组
 ## 部门安排
 
-* [工作计划](./task)
-* [期中考核](./assessment)
+* [寒假安排](./winter-plan)
 
 # 教程
 
